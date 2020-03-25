@@ -15,7 +15,7 @@ class Data {
         "https://coronavirus-monitor.p.rapidapi.com/coronavirus/cases_by_country.php",
         headers: {
           "x-rapidapi-host": "coronavirus-monitor.p.rapidapi.com",
-          "x-rapidapi-key": "f13ab8c596msh449868faeeda79ep1abd35jsneb419eeecc82"
+          "x-rapidapi-key": "-"
         });
 
     var jsonData = jsonDecode(response.body);
